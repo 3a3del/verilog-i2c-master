@@ -1,4 +1,4 @@
-# Project Name: Single Port RAM and I2C EEPROM Controller
+# Single Port RAM and I2C EEPROM Controller
 
 ## Overview
 This project includes two primary modules: a Single Port RAM module and an I2C EEPROM Controller. The project is designed to facilitate memory operations via a single port RAM and communication with an EEPROM using the I2C protocol.
@@ -52,12 +52,6 @@ The EEPROM controller includes a state machine with states for handling idle, re
 ## Dependencies
 This project does not have external dependencies.
 
-## Revision History
-- Revision 0.01: Initial file creation
-
 ## Additional Comments
 - The memory initialization block in the Single Port RAM module is commented out. It can be uncommented for testing purposes.
 - The I2C EEPROM Controller's state machine includes both write and read sequences, with a clock division for generating the I2C clock signal.
-
-## Author
-Engineer: Muhammed Adel
